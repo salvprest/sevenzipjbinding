@@ -1,9 +1,9 @@
 7-Zip-JBinding ChangeLog
 ========================
 
-Release - 16.02-2.01beta (Release candidate, cross-platform, based on zip/p7zip 16.02 beta)
+Release - 16.04-2.01beta (Release candidate, cross-platform, based on zip/p7zip 16.02 beta)
 
-    * Bind 7-Zip 16.02 (beta)
+    * Bind 7-Zip 16.04 (beta)
         - DEB archive renamed to AR supporting archive extension: .ar, .a, .deb, .lib 
         - PropID.LINK renamed to PropID.SYM_LINK
         

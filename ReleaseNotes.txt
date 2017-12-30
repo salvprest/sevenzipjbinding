@@ -1,9 +1,9 @@
 7-Zip-JBinding Release Notes
 ============================
 
-Main features of 16.02-2.01beta (Release candidate, extraction/compression/update, cross-platform, based on zip/p7zip 16.02)
+Main features of 16.04-2.01beta (Release candidate, extraction/compression/update, cross-platform, based on zip/p7zip 16.04)
 
-    * Bind 7-Zip 16.02 (beta), In-memory archive extraction/creation/update
+    * Bind 7-Zip 16.04 (beta), In-memory archive extraction/creation/update
 
     * Extraction of
         - 7z, Arj, BZip2, Cab, Chm, Cpio, Ar/A/Lib/Deb, Fat, GZip, Iso,
@@ -47,11 +47,11 @@ Main features of 16.02-2.01beta (Release candidate, extraction/compression/updat
         <dependency>
             <groupId>net.sf.sevenzipjbinding</groupId>
             <artifactId>sevenzipjbinding</artifactId>
-            <version>16.02-2.01beta</version>
+            <version>16.04-2.01beta</version>
         </dependency>
         <dependency>
             <groupId>net.sf.sevenzipjbinding</groupId>
             <artifactId>sevenzipjbinding-all-platforms</artifactId>
-            <version>16.02-2.01beta</version>
+            <version>16.04-2.01beta</version>
         </dependency>
 
