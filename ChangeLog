@@ -12,8 +12,6 @@ Release - 16.04-2.01beta (Release candidate, cross-platform, based on zip/p7zip 
         - Encrypted archive items
         - Encrypt archive header (7z only)
         - Create & update tests
-        
-    * Temporary remove support for HFS and UDF due to the security gap in 7-zip
 
     * Full RAR5 extraction support (format name: ArchiveFormat.RAR5)
         - password protected archives 

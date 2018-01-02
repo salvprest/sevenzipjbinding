@@ -228,9 +228,8 @@ public abstract class ExtractSingleFileAbstractTest extends ExtractFileAbstractT
         checkArchiveGeneric(inArchive);
         outputStream.check();
 
-        // TODO Uncomment after resolving security problems in 7-zip
         if (archiveFormat != ArchiveFormat.CAB && archiveFormat != ArchiveFormat.CHM
-        /* && archiveFormat != ArchiveFormat.UDF */) {
+            && archiveFormat != ArchiveFormat.UDF) {
             checkPropertyPackedSize(inArchive, index, expectedFilename);
         }
         checkPropertyIsEncrypted(inArchive, index, expectedFilename);

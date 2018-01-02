@@ -66,6 +66,12 @@ import net.sf.sevenzipjbinding.impl.OutArchiveZipImpl;
  * <td>{@link #GZIP}</td>
  * </tr>
  * <tr align="center">
+ * <td>Hfs</td>
+ * <td>X</td>
+ * <td>-</td>
+ * <td>{@link #HFS}</td>
+ * </tr>
+ * <tr align="center">
  * <td>Iso</td>
  * <td>X</td>
  * <td>-</td>
@@ -112,6 +118,12 @@ import net.sf.sevenzipjbinding.impl.OutArchiveZipImpl;
  * <td>X</td>
  * <td>X</td>
  * <td>{@link #TAR}</td>
+ * </tr>
+ * <tr align="center">
+ * <td>Udf</td>
+ * <td>X</td>
+ * <td>-</td>
+ * <td>{@link #UDF}</td>
  * </tr>
  * <tr align="center">
  * <td>Wim</td>
@@ -179,6 +191,11 @@ public enum ArchiveFormat {
     ISO("Iso", true),
 
     /**
+     * Hfs format
+     */
+    HFS("HFS", true),
+    
+    /**
      * Gzip format
      */
     GZIP("GZip", OutArchiveGZipImpl.class, false),
@@ -238,11 +255,10 @@ public enum ArchiveFormat {
      */
     RPM("Rpm", true),
 
-    // TODO Uncomment after resolving security problems in 7-zip
-    //    /**
-    //     * Udf
-    //     */
-    //    UDF("Udf", true),
+    /**
+     * Udf
+     */
+    UDF("Udf", true),
 
     /**
      * Wim
